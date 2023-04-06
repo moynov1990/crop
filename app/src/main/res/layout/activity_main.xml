@@ -40,17 +40,19 @@
             android:padding="10sp"
             android:textAlignment="center"
             android:textColor="@color/colorPrimaryDark"
-            android:textSize="20sp" />
+            android:textSize="20sp"
+            tools:ignore="TouchTargetSizeCheck" />
 
         <Button
             android:id="@+id/buttonBrowse"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:layout_marginBottom="10dp"
             android:layout_marginLeft="10dp"
             android:layout_marginRight="10dp"
+            android:layout_marginBottom="10dp"
             android:background="@drawable/button2"
             android:drawableRight="@drawable/ic_baseline_image_search_24"
+            android:onClick="onChoseFile"
             android:padding="10sp"
             android:text="Вибір зображення"
             android:textSize="18sp" />
